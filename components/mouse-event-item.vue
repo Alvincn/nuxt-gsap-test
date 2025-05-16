@@ -11,7 +11,6 @@
 <script lang="ts" setup>
 const { $gsap } = useNuxtApp()
 onMounted(() => {
-    $gsap.set('.card', { scale: 1 })
 })
 const mouseEnterEvent = (e: MouseEvent) => {
     $gsap.to(e.currentTarget, { scale: 1.05, duration: 0.3 })

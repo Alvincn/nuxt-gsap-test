@@ -1,6 +1,9 @@
 <template>
     <h1 class="hero-title text-4xl text-center mt-10">欢迎来到 Gsap 测试</h1>
     <div class="mt-10">
+        <type-text></type-text>
+    </div>
+    <div class="mt-10">
         <scroll-trigger></scroll-trigger>
     </div>
     <div class="mt-10">
